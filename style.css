@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--grey-900);
+    color: var(--white);
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: var(--line-height);
+
+}
+
+a {
+    color: var(--green);
+
+    &:hover {
+        color: var(--white)
+    }
+}
+
+
+.card {
+    width: 384px;
+    height: 611px;
+    padding: 40px;
+    background: var(--grey-800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 12px;
+    gap: 24px;
+}
+
+
+.card .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card .picture img {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card .info .name {
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-semibold);
+}
+
+.card .info .location {
+    font-size: var(--font-size-14);
+    color: var(--green);
+    font-weight: var(--font-weight-bold);
+}
+
+.card .profession {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-400);
+}
+
+
+.card .profile-social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+
+.btn-primary {
+    height: 45px;
+    background: var(--grey-700);
+    color: var(--white);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--green);
+        color: var(--grey-700);
+        cursor: pointer;
+    }
+
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--font-size-12);
+    text-align: center;
+
+}
+
+@media (max-width: 761px) {
+
+    .card{
+        width: 327px;
+        height: 579px;
+        padding: 24px;
+        justify-content: center;
+
+    }
+
+     
+}

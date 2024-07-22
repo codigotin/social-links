@@ -1,0 +1,42 @@
+:root {
+
+    /*Colors*/
+    --grey-900:#141414;
+    --grey-800:#1F1F1F;
+    --grey-700:#333333;
+    --green:#C4F82A;
+    --white:#fff;
+
+    /*Typography*/
+    --font-family: 'Inter', sans-serif;
+    --line-height: 1.5;
+    --letter-spacing: 0px;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-size-24: 24px;
+    --font-size-14: 14px;
+    --font-size-12: 12px;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold suele tener un peso de 600 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
